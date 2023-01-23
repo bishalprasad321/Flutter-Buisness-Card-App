@@ -55,7 +55,7 @@ class MyApp extends StatelessWidget {
                     color: Colors.blueGrey,
                   ),
                   title: Text(
-                    '+91 985 182 3443',
+                    '+91 012 345 6789',
                     style: TextStyle(
                       color: Colors.blueGrey.shade900,
                       fontFamily: 'Source Sans Pro',
@@ -73,7 +73,7 @@ class MyApp extends StatelessWidget {
                         color: Colors.blueGrey,
                     ),
                     title: Text(
-                      'bishalprasad321@gmail.com',
+                      'bishalprasad@example.com',
                       style: TextStyle(
                         color: Colors.blueGrey.shade900,
                         fontFamily: 'Source Sans Pro',
