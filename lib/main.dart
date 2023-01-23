@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.blueGrey.shade700,
+        backgroundColor: Colors.black45,
         body: SafeArea(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
@@ -33,7 +33,7 @@ class MyApp extends StatelessWidget {
                 'FLUTTER DEVELOPER',
                 style: TextStyle(
                   fontFamily: 'Source Sans Pro',
-                  color: Colors.blueGrey.shade100,
+                  color: Colors.grey.shade500,
                   fontSize: 20.0,
                   fontWeight: FontWeight.bold,
                   letterSpacing: 2.5
@@ -44,38 +44,36 @@ class MyApp extends StatelessWidget {
                 thickness: 1.0,
                 indent: 125.0,
                 endIndent: 125.0,
-                color: Colors.blueGrey.shade100,
+                color: Colors.grey.shade100,
               ),
-              Card(
-                shadowColor: Colors.black,
-                margin: const EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
+              const Card(
+                margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
                 child: ListTile(
-                  leading: const Icon(
+                  leading: Icon(
                     Icons.phone,
-                    color: Colors.blueGrey,
+                    color: Colors.black,
                   ),
                   title: Text(
                     '+91 012 345 6789',
                     style: TextStyle(
-                      color: Colors.blueGrey.shade900,
+                      color: Colors.black,
                       fontFamily: 'Source Sans Pro',
                       fontSize: 20.0,
                     ),
                   ),
                 ),
               ),
-              Card(
-                shadowColor: Colors.black,
-                margin: const EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
+              const Card(
+                margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
                 child: ListTile(
-                    leading: const Icon(
+                    leading: Icon(
                         Icons.email,
-                        color: Colors.blueGrey,
+                        color: Colors.black,
                     ),
                     title: Text(
                       'bishalprasad@example.com',
                       style: TextStyle(
-                        color: Colors.blueGrey.shade900,
+                        color: Colors.black,
                         fontFamily: 'Source Sans Pro',
                         fontSize: 20.0,
                       ),
